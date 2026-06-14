@@ -47,7 +47,6 @@ def decide_tool(text):
 
     else:
         return {"action":"finish","answer":"任务结束"}
-
 # Agent循环
 def agent_loop(user_q,max_steps=5):
     msg_list = [{"role":"user","content":user_q}]
