@@ -80,7 +80,6 @@ class WeatherTool:
             if city != "":
                 city_list.append(city)
         return city_list
-
     def run(self):
         print("===== 天气查询工具 =====")
         cities = self.input_city()
