@@ -1,5 +1,5 @@
-# 银行账户类
 class BankAccount:
+    
     # 初始化账户信息
     def __init__(self, name, balance):
         self.name = name
